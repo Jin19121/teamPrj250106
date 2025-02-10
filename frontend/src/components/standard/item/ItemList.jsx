@@ -74,7 +74,7 @@ export function ItemList({
                   <Table.Cell textAlign="center" width="90px">
                     {index + 1}
                   </Table.Cell>
-                  <Table.Cell textAlign="center" width="20%">
+                  <Table.Cell textAlign="center" width="25%">
                     {item.itemCommonName}
                   </Table.Cell>
                   <Table.Cell textAlign="center" width="20%">
