@@ -20,8 +20,8 @@ public class InoutHistoryController {
                                     @RequestParam(value = "type", defaultValue = "all") String searchType,
                                     @RequestParam(value = "keyword", defaultValue = "") String searchKeyword,
                                     @RequestParam(value = "state", defaultValue = "") String state,
-                                    @RequestParam(value = "sort", defaultValue = "") String sort,
-                                    @RequestParam(value = "order", defaultValue = "") String order,
+                                    @RequestParam(value = "sort", defaultValue = "inout_history_key") String sort,
+                                    @RequestParam(value = "order", defaultValue = "DESC") String order,
                                     Authentication auth) {
         return service.list(page, searchKeyword, searchType, sort, order, state, auth);
     }
