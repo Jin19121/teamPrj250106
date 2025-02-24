@@ -200,7 +200,7 @@ function CustomerList({
                   onRowClick(customer.customerKey);
                 }}
                 _hover={{ cursor: "pointer", backgroundColor: "gray.200" }}
-                bg={customer.customerActive ? "white" : "gray.200"}
+                bg={customer.customerActive ? "white" : "gray.100"}
               >
                 <Table.Cell textAlign="center">{index + 1}</Table.Cell>
                 <Table.Cell textAlign="center">

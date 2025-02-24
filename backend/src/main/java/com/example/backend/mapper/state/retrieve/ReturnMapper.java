@@ -289,6 +289,7 @@ public interface ReturnMapper {
             FROM TB_RTN_REQ r
             LEFT JOIN TB_EMPMST e ON r.customer_code =  e.employee_workplace_code
             WHERE r.return_request_key = #{returnRequestKey}
+              AND e.employee_active = true;
             """)
     List<Map<String, Object>> getConfigurerList(String returnRequestKey);
 
