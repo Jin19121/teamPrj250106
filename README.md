@@ -1,4 +1,4 @@
-# 🏢 AMS — 가맹점 자산 관리 시스템
+# 🏢 AMS : Choongang System — 가맹점 자산 관리 시스템
 
 > **Asset Management System** — 본사·협력사·가맹점 간 구매, 입고, 설치, 반품/회수를 통합 관리하는 전사 물류 플랫폼
 
